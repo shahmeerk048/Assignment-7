@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="https///www.shahkhan.org/">
+      <fieldset>
+        <legend>Your Details</legend>
+        <label>
+          Name:
+          <input
+            type="text"
+            name="name"
+            id=""
+            placeholder="write your name"
+          /> </label
+        ><br />
+
+        <label>
+          Email:
+          <input
+            type="text"
+            name="Email"
+            id=""
+            placeholder="write your email"
+          />
+        </label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Your Review</legend>
+        <p>
+          <label for="hear-about"> How did you hear about us? </label>
+          <select name="referrer" id="hear-about">
+            <option value="google">Google</option>
+            <option value="friends">Friends</option>
+            <option value="advert">Advert</option>
+            <option value="other">Other</option>
+          </select>
+        </p>
+        <p>
+          Would you visit again?
+          <br />
+          <label> <input type="radio" name="rating" value="yes" />Yes </label>
+          <input type="radio" name="rating" value="no" />No
+        </p>
+        <p>
+          <label for="comments"> Comments: </label>
+          <br />
+          <textarea
+            placeholder="write your comments"
+            name="comments"
+            id="comments"
+            cols="40"
+            rows="4"
+          ></textarea>
+        </p>
+        <label>
+          <input type="checkbox" name="subscribe" checked="checked" />
+          Sign me up for email updates
+        </label>
+        <br />
+        <input type="submit" value="submit review" />
+      </fieldset>
+    </form>
+  </body>
+</html>
